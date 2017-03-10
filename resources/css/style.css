@@ -1,0 +1,111 @@
+html, body {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  background: white;
+}
+
+.navbar-fixed-top {
+  background: white;
+}
+nav li a {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+a {
+  color: rgba(0,0,0,0.5);
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.nav>li>a:focus, .nav>li>a:active {
+  color: #399bd1;
+  background: none;
+}
+.nav>li>a:hover {
+  color: black;
+  background: none;
+}
+
+.navbar-brand {
+  display: none;
+}
+
+@media only screen and (min-width: 770px) {
+  .navbar-brand {
+    display: inline;
+  }
+}
+
+.jumbotron h1 {
+  font-family: 'Monoton', cursive;
+  color: white;
+}
+
+.jumbotron {
+  background: url('../images/jumbotron.png');
+  background-position: center;
+  background-size: cover;
+  padding: 11.85rem 0;
+}
+
+.get-going {
+  text-align: center;
+  max-width: 51.3rem;
+  margin: 0 auto;
+}
+
+.get-going button {
+  padding: 1.3rem;
+  width: 11.4rem;
+  margin-top: 2.8rem;
+}
+
+.projects-container {
+  margin-bottom: 5.85rem;
+}
+
+.categories h3 {
+  color: #399bd1;
+}
+
+.categories li {
+  line-height: 1.4;
+  color: rgba(0,0,0,0.7);
+}
+
+.projects h2 {
+  color: #399bd1;
+}
+
+@media only screen and (min-width: 1000px) {
+  .categories h3, .project-info h3 {
+      margin-top: 0;
+  }
+}
+
+footer {
+  padding: 5.2rem 0;
+  background: #f3f3f3;
+}
+
+footer h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
+}
+
+.learn-more {
+  width: 42rem;
+  margin: 0 auto;
+  text-align: center;
+}
